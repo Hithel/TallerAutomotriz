@@ -1,0 +1,15 @@
+/home/arteN01-037/Desktop/C#/Switch/bin/Debug/net7.0/Switch
+/home/arteN01-037/Desktop/C#/Switch/bin/Debug/net7.0/Switch.deps.json
+/home/arteN01-037/Desktop/C#/Switch/bin/Debug/net7.0/Switch.runtimeconfig.json
+/home/arteN01-037/Desktop/C#/Switch/bin/Debug/net7.0/Switch.dll
+/home/arteN01-037/Desktop/C#/Switch/bin/Debug/net7.0/Switch.pdb
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.csproj.AssemblyReference.cache
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.AssemblyInfoInputs.cache
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.AssemblyInfo.cs
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.csproj.CoreCompileInputs.cache
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.dll
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/refint/Switch.dll
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.pdb
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/Switch.genruntimeconfig.cache
+/home/arteN01-037/Desktop/C#/Switch/obj/Debug/net7.0/ref/Switch.dll

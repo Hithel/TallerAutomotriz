@@ -1,0 +1,15 @@
+/home/arteN01-037/Desktop/C#/Arrays/bin/Debug/net7.0/Arrays
+/home/arteN01-037/Desktop/C#/Arrays/bin/Debug/net7.0/Arrays.deps.json
+/home/arteN01-037/Desktop/C#/Arrays/bin/Debug/net7.0/Arrays.runtimeconfig.json
+/home/arteN01-037/Desktop/C#/Arrays/bin/Debug/net7.0/Arrays.dll
+/home/arteN01-037/Desktop/C#/Arrays/bin/Debug/net7.0/Arrays.pdb
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.csproj.AssemblyReference.cache
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfoInputs.cache
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfo.cs
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.csproj.CoreCompileInputs.cache
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.dll
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/refint/Arrays.dll
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.pdb
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/Arrays.genruntimeconfig.cache
+/home/arteN01-037/Desktop/C#/Arrays/obj/Debug/net7.0/ref/Arrays.dll
