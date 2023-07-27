@@ -6,7 +6,7 @@ class Program
 {
 
     static Dictionary<int, Usuario> Usuarios = new Dictionary<int, Usuario>();
-    
+
     static void Main() {
         int opcion;
 
@@ -27,13 +27,13 @@ class Program
             //         mostrarLista();
             //         break;
             //     case 4:
-            //         eliminarUsuario();
+            //         actualizarPrecio();
             //         break;
             //     case 5:
-            //         Console.WriteLine("Hasta luego.");
+            //         actualizarCantidad();
             //         break;
             //     case 6:
-            //         Console.WriteLine("Hasta luego.");
+            //         actualizarListado();
             //         break;
             //     case 7:
             //         Console.WriteLine("Hasta luego.");
