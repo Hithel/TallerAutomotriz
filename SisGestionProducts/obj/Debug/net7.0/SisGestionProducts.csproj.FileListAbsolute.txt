@@ -3,3 +3,13 @@
 /home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.AssemblyInfoInputs.cache
 /home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.AssemblyInfo.cs
 /home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.csproj.CoreCompileInputs.cache
+/home/arteN01-037/Desktop/C#/SisGestionProducts/bin/Debug/net7.0/SisGestionProducts
+/home/arteN01-037/Desktop/C#/SisGestionProducts/bin/Debug/net7.0/SisGestionProducts.deps.json
+/home/arteN01-037/Desktop/C#/SisGestionProducts/bin/Debug/net7.0/SisGestionProducts.runtimeconfig.json
+/home/arteN01-037/Desktop/C#/SisGestionProducts/bin/Debug/net7.0/SisGestionProducts.dll
+/home/arteN01-037/Desktop/C#/SisGestionProducts/bin/Debug/net7.0/SisGestionProducts.pdb
+/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.dll
+/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/refint/SisGestionProducts.dll
+/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.pdb
+/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/SisGestionProducts.genruntimeconfig.cache
+/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/Debug/net7.0/ref/SisGestionProducts.dll
