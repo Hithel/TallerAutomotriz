@@ -1,14 +1,14 @@
 ﻿using System;
-using MiCoche;
-class Program
-{
-    static void Main()
-    {
-    
-        Coche miCoche = new Coche("Toyota", "Corolla", 2022, "Azul");
+using System.Collections.Generic;
 
-        miCoche.ObtenerInformacion();
-        miCoche.Acelerar();
-        miCoche.Frenar();
-    }
+using Poo.Entidades;
+
+internal class Program 
+{
+    private static void Main(string[] args)
+    {
+        Alumno estudiante = new Alumno("pepito");
+        Console.WriteLine($"el id del estudiante {estudiante.IdAlumno}");
+        Console.WriteLine($"el nombre del estudiante {estudiante.NombreAlumno}");
+;    }
 }
