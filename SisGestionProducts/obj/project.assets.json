@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/arteN01-037/.nuget/packages/": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/arteN01-037/Desktop/C#/SisGestionProducts/SisGestionProducts.csproj",
+      "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\C-\\SisGestionProducts\\SisGestionProducts.csproj",
       "projectName": "SisGestionProducts",
-      "projectPath": "/home/arteN01-037/Desktop/C#/SisGestionProducts/SisGestionProducts.csproj",
-      "packagesPath": "/home/arteN01-037/.nuget/packages/",
-      "outputPath": "/home/arteN01-037/Desktop/C#/SisGestionProducts/obj/",
+      "projectPath": "c:\\Users\\ADMIN\\Documents\\C-\\SisGestionProducts\\SisGestionProducts.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ADMIN\\Documents\\C-\\SisGestionProducts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/arteN01-037/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

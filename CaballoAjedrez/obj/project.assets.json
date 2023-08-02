@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\C#\\CaballoAjedrez\\CaballoAjedrez.csproj",
+      "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\C-\\CaballoAjedrez\\CaballoAjedrez.csproj",
       "projectName": "CaballoAjedrez",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\C#\\CaballoAjedrez\\CaballoAjedrez.csproj",
+      "projectPath": "c:\\Users\\ADMIN\\Documents\\C-\\CaballoAjedrez\\CaballoAjedrez.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\C#\\CaballoAjedrez\\obj\\",
+      "outputPath": "c:\\Users\\ADMIN\\Documents\\C-\\CaballoAjedrez\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
