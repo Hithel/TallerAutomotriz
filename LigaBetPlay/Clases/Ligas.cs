@@ -41,6 +41,7 @@ namespace LigaBetPlay.Clases;
         {
             Console.WriteLine($"{liga.Id}\t{liga.Nombre}");
         }
+        Console.WriteLine("\nToca enter para continuar.");
         Console.ReadKey();
 
     }

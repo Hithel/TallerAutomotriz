@@ -19,21 +19,24 @@ namespace LigaBetPlay.Clases.Menus;
             Console.Write("Seleccione una opción: ");
 
             if(int.TryParse(Console.ReadLine(), out int opcion)){
+                Ligas buscarLiga = new ();
+                Equipo equipo = new ();
+                Ligas LigaSelecionada = new ();
+
             switch(opcion){
                 case 1:
-                    Ligas buscarLiga = new Ligas();
-                    Ligas LigaSelecionada = buscarLiga.BuscarLigas(listLigas);
-                    Console.WriteLine($" La liga Selecionada es: {LigaSelecionada.Nombre}");
-                    Equipo equipo = new Equipo();
+                    buscarLiga.BuscarLigas(listLigas);
                     Equipo newEquipo = equipo.AgregarEquipo();
+                    Console.WriteLine($"El ID del nuevo equipo es: {newEquipo.id}");
                     Console.WriteLine($"El nombre del nuevo equipo es: {newEquipo.nombre}");
                     LigaSelecionada.equiposLigas.Add(newEquipo);
                     Console.WriteLine($"El equipo : {LigaSelecionada.equiposLigas[0].nombre} se a agregado correctamente");
+                    newEquipo.MostrarEquipo(LigaSelecionada);
                     Console.ReadKey();
 
                     break;
                 case 2:
-                    Console.WriteLine("Registro de Jugador");
+                    
                     break;
                 case 3:
                     Console.WriteLine("Registro de Entrenador");

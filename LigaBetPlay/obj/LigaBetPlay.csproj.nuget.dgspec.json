@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\C-\\LigaBetPlay\\LigaBetPlay.csproj": {}
+    "/home/arteN01-037/Desktop/C-/LigaBetPlay/LigaBetPlay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\C-\\LigaBetPlay\\LigaBetPlay.csproj": {
+    "/home/arteN01-037/Desktop/C-/LigaBetPlay/LigaBetPlay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\C-\\LigaBetPlay\\LigaBetPlay.csproj",
+        "projectUniqueName": "/home/arteN01-037/Desktop/C-/LigaBetPlay/LigaBetPlay.csproj",
         "projectName": "LigaBetPlay",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\C-\\LigaBetPlay\\LigaBetPlay.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\C-\\LigaBetPlay\\obj\\",
+        "projectPath": "/home/arteN01-037/Desktop/C-/LigaBetPlay/LigaBetPlay.csproj",
+        "packagesPath": "/home/arteN01-037/.nuget/packages/",
+        "outputPath": "/home/arteN01-037/Desktop/C-/LigaBetPlay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/arteN01-037/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

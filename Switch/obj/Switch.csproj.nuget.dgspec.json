@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ADMIN\\Documents\\C-\\Switch\\Switch.csproj": {}
+    "/home/arteN01-037/Desktop/C-/Switch/Switch.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ADMIN\\Documents\\C-\\Switch\\Switch.csproj": {
+    "/home/arteN01-037/Desktop/C-/Switch/Switch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\C-\\Switch\\Switch.csproj",
+        "projectUniqueName": "/home/arteN01-037/Desktop/C-/Switch/Switch.csproj",
         "projectName": "Switch",
-        "projectPath": "c:\\Users\\ADMIN\\Documents\\C-\\Switch\\Switch.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ADMIN\\Documents\\C-\\Switch\\obj\\",
+        "projectPath": "/home/arteN01-037/Desktop/C-/Switch/Switch.csproj",
+        "packagesPath": "/home/arteN01-037/.nuget/packages/",
+        "outputPath": "/home/arteN01-037/Desktop/C-/Switch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/arteN01-037/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }
