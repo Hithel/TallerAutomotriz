@@ -1,9 +1,9 @@
-
+using LigaBetPlay.Clases;
 
 namespace LigaBetPlay.Clases.Menus;
     public class MenuPlantel
     {
-        public void EjecutarMenuPlantel(){
+        public void EjecutarMenuPlantel(List<Ligas> listLigas){
             bool validacion = true;
         
         do{
@@ -21,7 +21,16 @@ namespace LigaBetPlay.Clases.Menus;
             if(int.TryParse(Console.ReadLine(), out int opcion)){
             switch(opcion){
                 case 1:
-                    Console.WriteLine("Registro Equipo");
+                    Ligas buscarLiga = new Ligas();
+                    Ligas LigaSelecionada = buscarLiga.BuscarLigas(listLigas);
+                    Console.WriteLine($" La liga Selecionada es: {LigaSelecionada.Nombre}");
+                    Equipo equipo = new Equipo();
+                    Equipo newEquipo = equipo.AgregarEquipo();
+                    Console.WriteLine($"El nombre del nuevo equipo es: {newEquipo.nombre}");
+                    LigaSelecionada.equiposLigas.Add(newEquipo);
+                    Console.WriteLine($"El equipo : {LigaSelecionada.equiposLigas[0].nombre} se a agregado correctamente");
+                    Console.ReadKey();
+
                     break;
                 case 2:
                     Console.WriteLine("Registro de Jugador");
