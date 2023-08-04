@@ -1,12 +1,14 @@
 using LigaBetPlay.Clases;
 
 namespace LigaBetPlay.Clases.Menus;
-    public class MenuPlantel
+public class MenuPlantel
+{
+    public void EjecutarMenuPlantel(List<Ligas> listLigas)
     {
-        public void EjecutarMenuPlantel(List<Ligas> listLigas){
-            bool validacion = true;
-        
-        do{
+        bool validacion = true;
+
+        do
+        {
 
             Console.Clear();
             Console.WriteLine("SISTEMA DE GESTIÓN DE LIGA\n\n");
@@ -18,50 +20,64 @@ namespace LigaBetPlay.Clases.Menus;
             Console.WriteLine("6. Regresar al Menu Principal\n");
             Console.Write("Seleccione una opción: ");
 
-            if(int.TryParse(Console.ReadLine(), out int opcion)){
-                Ligas buscarLiga = new ();
-                Equipo equipo = new ();
-                Ligas LigaSelecionada = new ();
+            if (int.TryParse(Console.ReadLine(), out int opcion))
+            {
+                Ligas buscarLiga = new Ligas();
+                Equipo equipo = new Equipo();
+                Persona persona = new Persona();
+                
 
-            switch(opcion){
-                case 1:
-                    buscarLiga.BuscarLigas(listLigas);
-                    Equipo newEquipo = equipo.AgregarEquipo();
-                    Console.WriteLine($"El ID del nuevo equipo es: {newEquipo.id}");
-                    Console.WriteLine($"El nombre del nuevo equipo es: {newEquipo.nombre}");
-                    LigaSelecionada.equiposLigas.Add(newEquipo);
-                    Console.WriteLine($"El equipo : {LigaSelecionada.equiposLigas[0].nombre} se a agregado correctamente");
-                    newEquipo.MostrarEquipo(LigaSelecionada);
-                    Console.ReadKey();
+                switch (opcion)
+                {
+                    case 1:
+                        Ligas LigaSelecionada = buscarLiga.BuscarLigas(listLigas);
+                        
+                        Equipo newEquipo = equipo.AgregarEquipo();
+                        Console.WriteLine($"El ID del nuevo equipo es: {newEquipo.id}");
+                        Console.WriteLine($"El nombre del nuevo equipo es: {newEquipo.nombre}");
+                        
+                        LigaSelecionada.equiposLigas.Add(newEquipo);
+                        Console.WriteLine($"El equipo : {newEquipo.nombre} se a agregado correctamente");
+                        newEquipo.MostrarEquipo(LigaSelecionada);
+                        Console.ReadKey();
 
-                    break;
-                case 2:
-                    
-                    break;
-                case 3:
-                    Console.WriteLine("Registro de Entrenador");
-                    break;
-                case 4:
-                    Console.WriteLine("Registro de Masajista");
-                    break;
-                case 5:
-                    Console.WriteLine("Registro de Venta Jugador");
-                    break;
-                case 6:
-                    Console.WriteLine("Regresar al Menu Principal");
-                    validacion = false;
-                    break;
-                default: 
-                    Console.WriteLine("");
-                    Console.ReadLine();
-                    break;
+                        break;
+                    case 2:
+                        Ligas LigaSelect = buscarLiga.BuscarLigas(listLigas);
+                        Equipo EquipoSelecionado = equipo.BuscarEquipo(LigaSelect);
+                        Persona newPersona = persona.CrearPersona();
+                        Jugador jugador = new Jugador();
+                        Jugador newJugador = jugador.CrearJugador(newPersona);
+                        EquipoSelecionado.jugadores.Add(newJugador);
+                        newJugador.MostrarJugadores(EquipoSelecionado);
+                        Console.WriteLine("\nToca enter para continuar.");
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        Console.WriteLine("Registro de Entrenador");
+                        break;
+                    case 4:
+                        Console.WriteLine("Registro de Masajista");
+                        break;
+                    case 5:
+                        Console.WriteLine("Registro de Venta Jugador");
+                        break;
+                    case 6:
+                        Console.WriteLine("Regresar al Menu Principal");
+                        validacion = false;
+                        break;
+                    default:
+                        Console.WriteLine("");
+                        Console.ReadLine();
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ingrese una opción valida: ");
+                Console.ReadKey();
             }
         }
-        else {
-            Console.WriteLine("Ingrese una opción valida: ");
-            Console.ReadKey();
-        }
-        }
-        while(validacion);
-        }
+        while (validacion);
     }
+}

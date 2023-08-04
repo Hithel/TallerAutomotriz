@@ -7,7 +7,7 @@ namespace LigaBetPlay.Clases;
          public int codFederacion { get; set; }
         public string especialidad { get; set; }
 
-        public Entrenador (string nombre, int id, int edad, string ciudadOrigen, int codFederacion,string especialidad): base (nombre,id,edad,ciudadOrigen){
+        public Entrenador (string nombre, int id, DateTime fechaNacimiento, string ciudadOrigen, int codFederacion,string especialidad): base (nombre,id,fechaNacimiento,ciudadOrigen){
         this.codFederacion = codFederacion;
         this.especialidad = especialidad;
     }

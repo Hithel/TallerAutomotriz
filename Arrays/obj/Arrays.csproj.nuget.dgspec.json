@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-037/Desktop/C-/Arrays/Arrays.csproj": {}
+    "c:\\Users\\ADMIN\\Documents\\C-\\Arrays\\Arrays.csproj": {}
   },
   "projects": {
-    "/home/arteN01-037/Desktop/C-/Arrays/Arrays.csproj": {
+    "c:\\Users\\ADMIN\\Documents\\C-\\Arrays\\Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-037/Desktop/C-/Arrays/Arrays.csproj",
+        "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\C-\\Arrays\\Arrays.csproj",
         "projectName": "Arrays",
-        "projectPath": "/home/arteN01-037/Desktop/C-/Arrays/Arrays.csproj",
-        "packagesPath": "/home/arteN01-037/.nuget/packages/",
-        "outputPath": "/home/arteN01-037/Desktop/C-/Arrays/obj/",
+        "projectPath": "c:\\Users\\ADMIN\\Documents\\C-\\Arrays\\Arrays.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ADMIN\\Documents\\C-\\Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arteN01-037/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -32,7 +32,7 @@ namespace LigaBetPlay.Clases;
             equipo.id = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Ingrese el Nombre del Equipo");
-            equipo.nombre = Console.ReadLine();
+            equipo.nombre = Console.ReadLine()!;
 
             return equipo;
         }
@@ -50,7 +50,16 @@ namespace LigaBetPlay.Clases;
             Console.ReadKey();
         }
 
-        // public Equipo BuscarEquipo(){
+        public Equipo BuscarEquipo(Ligas ligasSelecionada){
+            
+            MostrarEquipo(ligasSelecionada);
 
-        // }
+
+            Console.WriteLine("Ingrese el ID del Equipo");
+            int opcion = int.Parse(Console.ReadLine()!);
+
+            return ligasSelecionada.equiposLigas.Find(n => n.id == opcion)!;
+        }
+
+
     }
