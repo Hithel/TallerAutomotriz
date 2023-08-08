@@ -2,7 +2,7 @@ namespace TallerAutomotriz.Entities;
 
 public class Vehiculos
 {
-    public int Id;
+    public int Id { get; set; }
     public string Placa { get; set; }
     public int Modelo { get; set; }
     public string Marca { get; set; }
@@ -52,11 +52,11 @@ public class Vehiculos
     {
         Console.Clear();
 
-        Console.WriteLine("Placa\t Modelo\t Marca\t Color\t Km");
+        Console.WriteLine("ID\t Placa\t Modelo\t Marca\t Color\t Km");
 
         foreach (var vehiculos in selecionarCliente.listaVehiculos)
         {
-            Console.WriteLine($"{vehiculos.Placa}\t {vehiculos.Modelo} \t {vehiculos.Marca}\t {vehiculos.Color}\t {vehiculos.Km}\t");
+            Console.WriteLine($"{vehiculos.Id}\t{vehiculos.Placa}\t {vehiculos.Modelo} \t {vehiculos.Marca}\t {vehiculos.Color}\t {vehiculos.Km}\t");
 
         }
         Console.WriteLine("\nToca enter para continuar");
@@ -72,4 +72,5 @@ public class Vehiculos
 
         return seleccionarCliente.listaVehiculos.Find(n => n.Id == opcion)!;
     }
+
 }

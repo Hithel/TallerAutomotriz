@@ -7,6 +7,8 @@ public class MenuEmpleado
         bool validacion = true;
 
         List<Respuestos> listaRespuestos = new List<Respuestos>();
+        List<OrdenServicio> listaOrdenServicio = new List<OrdenServicio>();
+        List<OrdenAprovacion> listaOrdenAprovacion = new List<OrdenAprovacion>();
 
         do
         {
@@ -24,6 +26,7 @@ public class MenuEmpleado
             {
                 Respuestos respuestos = new Respuestos();
                 OrdenServicio ordenServicio = new OrdenServicio();
+                OrdenAprovacion ordenAprovacion = new OrdenAprovacion(); 
 
                 switch (opcion)
                 {
@@ -36,10 +39,16 @@ public class MenuEmpleado
                     case 2:
                         OrdenServicio newOrdenServicio = ordenServicio.CrearOrden(listaClientes,listaEmpleado);
                         ordenServicio.MostrarOrdenServicio(newOrdenServicio);
+                        listaOrdenServicio.Add(newOrdenServicio);
                         break;
                     case 3:
+                        OrdenServicio selecionarOrden = ordenServicio.BuscarOrdenServicio(listaOrdenServicio);
+                        OrdenAprovacion newOrdenAprovacion = ordenAprovacion.CrearOrdenAprovacion(selecionarOrden,listaRespuestos);
+                        listaOrdenAprovacion.Add(newOrdenAprovacion);
+                        newOrdenAprovacion.MostrarListaOrdenAprovacion(listaOrdenAprovacion);
                         break;
                     case 4:
+
                         break;
                     case 5:
                         Console.WriteLine("Regresar al Menu Principal");

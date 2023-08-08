@@ -85,4 +85,14 @@ public class Respuestos
         Console.WriteLine("\nToca enter para continuar");
         Console.ReadKey();
     }
+
+    public Respuestos BuscarRespuestos(List<Respuestos> listaRespuestos){
+
+        MostrarRepuestos(listaRespuestos);
+
+            Console.WriteLine("Ingrese el ID del Equipo");
+            int opcion = int.Parse(Console.ReadLine()!);
+
+            return listaRespuestos.Find(n => n.id == opcion)!;
+    }
 }

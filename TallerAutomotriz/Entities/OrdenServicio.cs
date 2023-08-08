@@ -99,4 +99,28 @@ class OrdenServicio
         Console.WriteLine("\nToca enter para continuar");
         Console.ReadKey();
     }
+
+    public void MostrarListaOrdenServicio(List<OrdenServicio> listaOrdenServicio) {
+        Console.Clear();
+
+            Console.WriteLine("ID Orden\t Fecha Orden\t Cliente\t Empleado");
+
+            foreach (var OrdenServicio in listaOrdenServicio)
+            {
+                Console.WriteLine($"{OrdenServicio.Id}\t {OrdenServicio.FechaOrden}\t {OrdenServicio.cliente.Nombre}\t {OrdenServicio.empleado.Nombre}");
+
+            }
+            Console.WriteLine("\nToca enter para continuar");
+            Console.ReadKey();
+    }
+
+    public OrdenServicio BuscarOrdenServicio(List<OrdenServicio> listaOrdenServicio){
+
+        MostrarListaOrdenServicio(listaOrdenServicio);
+
+            Console.WriteLine("Ingrese el ID del Equipo");
+            int opcion = int.Parse(Console.ReadLine()!);
+
+            return listaOrdenServicio.Find(n => n.Id == opcion)!;
+    }
 }
