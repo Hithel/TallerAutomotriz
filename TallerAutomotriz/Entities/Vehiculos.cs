@@ -2,14 +2,16 @@ namespace TallerAutomotriz.Entities;
 
 public class Vehiculos
 {
-    private string Placa { get; set; }
-    private int Modelo { get; set; }
-    private string Marca { get; set; }
-    private string Color { get; set; }
-    private float Km { get; set; }
+    public int Id;
+    public string Placa { get; set; }
+    public int Modelo { get; set; }
+    public string Marca { get; set; }
+    public string Color { get; set; }
+    public float Km { get; set; }
 
-    public Vehiculos(string Placa, int Modelo, string Marca, string Color, float Km)
+    public Vehiculos(int Id, string Placa, int Modelo, string Marca, string Color, float Km)
     {
+        this.Id = Id;
         this.Placa = Placa;
         this.Modelo = Modelo;
         this.Marca = Marca;
@@ -17,13 +19,16 @@ public class Vehiculos
         this.Km = Km;
     }
 
-    public Vehiculos(){}
+    public Vehiculos() { }
 
     public Vehiculos CrearVechiculo()
     {
         Console.Clear();
 
         Vehiculos vehiculo = new Vehiculos();
+
+        Console.WriteLine("Ingrese el ID del Vehiculo");
+        vehiculo.Id = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Ingrese la Placa del Vehiculo");
         vehiculo.Placa = Console.ReadLine()!;
@@ -43,18 +48,28 @@ public class Vehiculos
         return vehiculo;
     }
 
-    public void MostrarVehiculos(Cliente selecionarCliente){
+    public void MostrarVehiculos(Cliente selecionarCliente)
+    {
         Console.Clear();
 
         Console.WriteLine("Placa\t Modelo\t Marca\t Color\t Km");
 
-            foreach(var vehiculos in selecionarCliente.listaVehiculos){
-                Console.WriteLine($"{vehiculos.Placa}\t {vehiculos.Modelo} \t {vehiculos.Marca}\t {vehiculos.Color}\t {vehiculos.Km}\t");
+        foreach (var vehiculos in selecionarCliente.listaVehiculos)
+        {
+            Console.WriteLine($"{vehiculos.Placa}\t {vehiculos.Modelo} \t {vehiculos.Marca}\t {vehiculos.Color}\t {vehiculos.Km}\t");
 
-            }
-            Console.WriteLine("\nToca enter para continuar");
-            Console.ReadKey();
+        }
+        Console.WriteLine("\nToca enter para continuar");
+        Console.ReadKey();
     }
 
+    public Vehiculos BuscarVehiculos(Cliente seleccionarCliente){
 
+        MostrarVehiculos(seleccionarCliente);
+
+        Console.WriteLine("Ingrese el ID del Equipo");
+        int opcion = int.Parse(Console.ReadLine()!);
+
+        return seleccionarCliente.listaVehiculos.Find(n => n.Id == opcion)!;
+    }
 }

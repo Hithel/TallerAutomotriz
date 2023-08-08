@@ -61,15 +61,16 @@ namespace TallerAutomotriz.Entities
             Console.ReadKey();
         }
 
-        public Empleados BuscarEmpleado(List<Empleados> listaEmpleado){
-        
-        MostrarEmpleados(listaEmpleado);
+        public Empleados BuscarEmpleado(List<Empleados> listaEmpleado)
+        {
 
-        Console.WriteLine("Ingrese el ID del Equipo");
-        int opcion = int.Parse(Console.ReadLine()!);
+            MostrarEmpleados(listaEmpleado);
 
-        return listaEmpleado.Find(n => n.Id == opcion)!;
+            Console.WriteLine("Ingrese el ID del Equipo");
+            int opcion = int.Parse(Console.ReadLine()!);
 
-    }
+            return listaEmpleado.Find(n => n.Id == opcion)!;
+
+        }
     }
 }

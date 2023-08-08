@@ -10,7 +10,8 @@ class Program
 
         bool validacion = true;
 
-        do{
+        do
+        {
             Console.Clear();
             Console.WriteLine("SISTEMA DE TALLER AUTOMOTRIZ\n\n");
             Console.WriteLine("1. Registro Cliente");
@@ -20,20 +21,22 @@ class Program
             Console.WriteLine("5. Salir\n");
             Console.Write("Seleccione una opción: ");
 
-            if(int.TryParse(Console.ReadLine(), out int opcion)){
+            if (int.TryParse(Console.ReadLine(), out int opcion))
+            {
 
-                    Cliente cliente = new Cliente();
-                    Vehiculos vehiculo = new Vehiculos();
-                    Empleados empleado = new Empleados(); 
-                    
+                Cliente cliente = new Cliente();
+                Vehiculos vehiculo = new Vehiculos();
+                Empleados empleado = new Empleados();
 
-                switch(opcion){
+
+                switch (opcion)
+                {
                     case 1:
                         Cliente newCliente = cliente.CrearCliente();
                         listaClientes.Add(newCliente);
                         cliente.MostrarClientes(listaClientes);
                         break;
-                    case 2: 
+                    case 2:
                         Cliente selecionarCliente = cliente.BuscarCliente(listaClientes);
                         Vehiculos newVehiculo = vehiculo.CrearVechiculo();
                         selecionarCliente.listaVehiculos.Add(newVehiculo);
@@ -47,20 +50,21 @@ class Program
                     case 4:
                         Empleados selecionarEmpleado = empleado.BuscarEmpleado(listaEmpleado);
                         MenuEmpleado menuEmpleado = new MenuEmpleado();
-                        menuEmpleado.EjecutarMenuEmpleado(selecionarEmpleado,listaClientes,listaEmpleado);
+                        menuEmpleado.EjecutarMenuEmpleado(selecionarEmpleado, listaClientes, listaEmpleado);
 
                         break;
                     case 5:
                         validacion = false;
                         break;
 
-                    default: 
+                    default:
                         Console.WriteLine("");
                         Console.ReadLine();
                         break;
                 }
             }
-            else {
+            else
+            {
                 Console.WriteLine("Ingrese una opción valida: ");
                 Console.ReadKey();
             }

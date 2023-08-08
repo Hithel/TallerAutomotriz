@@ -71,18 +71,18 @@ public class Respuestos
 
     }
 
-    public void MostrarRepuestos( List<Respuestos> listaRespuestos)
+    public void MostrarRepuestos(List<Respuestos> listaRespuestos)
+    {
+        Console.Clear();
+
+        Console.WriteLine("ID\t Nombre\t Marca\t Celular\t Valor\t Cantidad \t FechaAgregado");
+
+        foreach (var respuesto in listaRespuestos)
         {
-            Console.Clear();
+            Console.WriteLine($"{respuesto.id}\t {respuesto.Nombre}\t {respuesto.Marca}\t {respuesto.Valor}\t {respuesto.Cantidad}\t {respuesto.FechaAgregado}\t ");
 
-            Console.WriteLine("ID\t Nombre\t Marca\t Celular\t Valor\t Cantidad \t FechaAgregado");
-
-            foreach (var respuesto in listaRespuestos)
-            {
-                Console.WriteLine($"{respuesto.id}\t {respuesto.Nombre}\t {respuesto.Marca}\t {respuesto.Valor}\t {respuesto.Cantidad}\t {respuesto.FechaAgregado}\t ");
-
-            }
-            Console.WriteLine("\nToca enter para continuar");
-            Console.ReadKey();
         }
+        Console.WriteLine("\nToca enter para continuar");
+        Console.ReadKey();
+    }
 }

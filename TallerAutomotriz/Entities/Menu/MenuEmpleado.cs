@@ -1,11 +1,12 @@
 namespace TallerAutomotriz.Entities.Menu;
-    public class MenuEmpleado
+public class MenuEmpleado
+{
+    public void EjecutarMenuEmpleado(Empleados selecionarEmpleado, List<Cliente> listaClientes, List<Empleados> listaEmpleado)
     {
-        public void EjecutarMenuEmpleado(Empleados selecionarEmpleado,List<Cliente> listaClientes,List<Empleados> listaEmpleado){
 
-            bool validacion = true;
+        bool validacion = true;
 
-            List<Respuestos> listaRespuestos = new List<Respuestos>();
+        List<Respuestos> listaRespuestos = new List<Respuestos>();
 
         do
         {
@@ -22,6 +23,7 @@ namespace TallerAutomotriz.Entities.Menu;
             if (int.TryParse(Console.ReadLine(), out int opcion))
             {
                 Respuestos respuestos = new Respuestos();
+                OrdenServicio ordenServicio = new OrdenServicio();
 
                 switch (opcion)
                 {
@@ -32,7 +34,8 @@ namespace TallerAutomotriz.Entities.Menu;
 
                         break;
                     case 2:
-
+                        OrdenServicio newOrdenServicio = ordenServicio.CrearOrden(listaClientes,listaEmpleado);
+                        ordenServicio.MostrarOrdenServicio(newOrdenServicio);
                         break;
                     case 3:
                         break;
@@ -55,5 +58,5 @@ namespace TallerAutomotriz.Entities.Menu;
             }
         }
         while (validacion);
-        }
     }
+}
