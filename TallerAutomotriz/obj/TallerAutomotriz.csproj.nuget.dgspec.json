@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj": {}
+    "c:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj": {
+    "c:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj",
+        "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj",
         "projectName": "TallerAutomotriz",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj",
+        "projectPath": "c:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\TallerAutomotriz.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\obj\\",
+        "outputPath": "c:\\Users\\ADMIN\\Documents\\C-\\TallerAutomotriz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
