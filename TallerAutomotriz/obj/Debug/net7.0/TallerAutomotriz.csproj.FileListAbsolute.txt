@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\bin\Debug\net7.0\TallerAutomotriz.exe
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\bin\Debug\net7.0\TallerAutomotriz.deps.json
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\bin\Debug\net7.0\TallerAutomotriz.runtimeconfig.json
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\bin\Debug\net7.0\TallerAutomotriz.dll
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\bin\Debug\net7.0\TallerAutomotriz.pdb
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.dll
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\refint\TallerAutomotriz.dll
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.pdb
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\TallerAutomotriz.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\C-\TallerAutomotriz\obj\Debug\net7.0\ref\TallerAutomotriz.dll

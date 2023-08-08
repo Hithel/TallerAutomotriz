@@ -22,9 +22,9 @@ public class MenuPlantel
 
             if (int.TryParse(Console.ReadLine(), out int opcion))
             {
-                Ligas buscarLiga = new Ligas();
-                Equipo equipo = new Equipo();
-                Persona persona = new Persona();
+                Ligas buscarLiga = new Ligas()!;
+                Equipo equipo = new Equipo()!;
+                Persona persona = new Persona()!;
                 
 
                 switch (opcion)
@@ -46,7 +46,7 @@ public class MenuPlantel
                         Ligas LigaSelect = buscarLiga.BuscarLigas(listLigas);
                         Equipo EquipoSelecionado = equipo.BuscarEquipo(LigaSelect);
                         Persona newPersona = persona.CrearPersona();
-                        Jugador jugador = new Jugador();
+                        Jugador jugador = new Jugador()!;
                         Jugador newJugador = jugador.CrearJugador(newPersona);
                         EquipoSelecionado.jugadores.Add(newJugador);
                         newJugador.MostrarJugadores(EquipoSelecionado);
@@ -54,7 +54,16 @@ public class MenuPlantel
                         Console.ReadKey();
                         break;
                     case 3:
-                        Console.WriteLine("Registro de Entrenador");
+                        Ligas ligasSeleccionada = buscarLiga.BuscarLigas(listLigas);
+                        Equipo equipoSeleccionado = equipo.BuscarEquipo(ligasSeleccionada);
+                        Persona NewPersona = persona.CrearPersona();
+                        Entrenador entrenador = new Entrenador()!;
+                        Entrenador newEntrenador = entrenador.CrearEntrenador(NewPersona);
+                        equipoSeleccionado.entrenadores.Add(newEntrenador);
+                        newEntrenador.MostrarEntrenador(equipoSeleccionado);
+                        Console.WriteLine("\nToca enter para continuar.");
+                        Console.ReadKey();
+
                         break;
                     case 4:
                         Console.WriteLine("Registro de Masajista");
